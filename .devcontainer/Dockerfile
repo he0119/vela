@@ -16,10 +16,10 @@ RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/local/bin
     && chmod a+x /usr/local/bin/repo
 
 # 安装 KConfig frontend
-RUN apt install kconfig-frontends
+RUN apt-get -y install kconfig-frontends
 
 # 安装 Python
-RUN apt install python3 python3-pip python-is-python3
+RUN apt-get -y install python3 python3-pip python-is-python3
 
 # 安装 Python 包
 RUN pip3 install kconfiglib pyelftools cxxfilt
