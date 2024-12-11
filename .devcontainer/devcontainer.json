@@ -15,7 +15,23 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"MS-CEINTL.vscode-language-pack-zh-hans",
+				"GitHub.copilot",
+				"GitHub.vscode-pull-request-github",
+				"github.vscode-github-actions",
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"EditorConfig.EditorConfig",
+				"DavidAnson.vscode-markdownlint",
+				"ms-azuretools.vscode-docker",
+				"fabiospampinato.vscode-todo-plus",
+				"silesky.toggle-boolean"
+			]
+		}
+	},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "root"
 }
