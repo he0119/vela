@@ -23,3 +23,6 @@ RUN apt-get -y install python3 python3-pip python-is-python3
 
 # 安装 Python 包
 RUN pip3 install kconfiglib pyelftools cxxfilt
+
+# Install Git LFS (Large File Storage) for managing large files
+RUN apt-get -y install git-lfs
